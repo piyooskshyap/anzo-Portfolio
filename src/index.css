@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+@font-face {
+    font-family: anzo1;
+    src: url(./assets/f.woff2);
+}
+
+@font-face {
+    font-family: anzo2;
+    src: url(./assets/f1.woff2);
+}
+@font-face {
+    font-family: anzo3;
+    src: url(./assets/f2.woff2);
+}
+@font-face {
+    font-family: anzo4;
+    src: url(./assets/f3.woff2);
+}
+@font-face {
+    font-family: anzo5;
+    src: url(./assets/f4.woff2);
+}
+@font-face {
+    font-family: anzo6;
+    src: url(./assets/m1.woff2);
+} 
+
+#page1-in{
+    perspective: 1000px;
+}
+
+#tiltdiv{ 
+    width: fit-content;
+
+    /* we can use this and use gsap also  */
+    /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 3s; */
+    /* transition: transform 0.5s ease; */
+    /* transform: rotateY(40deg); */
+}
+
+
+#section-2{
+    position: relative;
+    perspective: 3500px;
+
+} 
